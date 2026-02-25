@@ -4,7 +4,7 @@ on:
 
 jobs:
   board-lock-test:
-    runs-on: [self-hosted, linux, roc-rk3568-pc]
+    runs-on: [self-hosted, linux, phytiumpi]
     steps:
       - name: Start
         run: |
